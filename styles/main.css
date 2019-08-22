@@ -1,0 +1,25 @@
+body {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+ 	font-family:arial;
+}
+
+.title img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  padding: 10px 0px;
+}
+
+a:visited{color:#0E7F4D;}
+a:link{color:#0E547F;}
+a:hover{text-decoration:underline;}
+
+
+nav li {
+  display: inline;
+}
