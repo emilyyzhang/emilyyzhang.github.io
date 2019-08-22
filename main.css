@@ -1,8 +1,12 @@
 body {
-  background:red;
+  background:none;
   font-family:arial;
 }
 
 p {
   padding: 10px 0px;
 }
+
+li:visited{color:#0E7F4D;}
+li:link{color:#0E547F;}
+li:hover{text-decoration:underline;}
