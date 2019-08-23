@@ -1,3 +1,5 @@
+
+
 body {
 	width: 60%;
 	margin-left: auto;
@@ -5,8 +7,8 @@ body {
  	font-family:arial;
 }
 
-.title img {
-	display: inline;
+.intro img {
+	display: block;
 	float: right;
 	vertical-align: middle;
 }
@@ -15,11 +17,27 @@ p {
   padding: 10px 0px;
 }
 
-a:visited{color:#0E7F4D;}
-a:link{color:#0E547F;}
+a:link{color:#0000FF;}
+a:visited{color:#0000FF;}
 a:hover{text-decoration:underline;}
 
-
+header h1{
+	display: inline;
+}
 nav li {
-  display: inline;
+	display: inline;
+}
+
+#gt_container {
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#gt_container #left {
+	width:200px;
+	float:left;
+}
+#gt_container #right {
+	width:700px;
+	float:right;
 }
