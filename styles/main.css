@@ -1,7 +1,7 @@
 
 
 body {
-	width: 60%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
  	font-family:arial;
@@ -14,21 +14,13 @@ body {
 }
 
 
-.column1 {
-    float: left;
-    width: 25%;
+.stick_figure img {
+	display: block;
+	float: left;
+	vertical-align: middle;
+	padding-right: 15px;
+	padding-bottom: 15px;
 }
-.column2 {
-    float: right;
-    width: 75%;
-}
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 
 p {
@@ -45,6 +37,9 @@ header h1{
 nav li {
 	display: inline;
 }
+
+
+
 
 #gt_container {
 	width:900px;
