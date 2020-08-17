@@ -13,6 +13,24 @@ body {
 	vertical-align: middle;
 }
 
+
+.column1 {
+    float: left;
+    width: 25%;
+}
+.column2 {
+    float: right;
+    width: 75%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
 p {
   padding: 0px 0px 10px 0px;
 }
