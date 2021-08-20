@@ -1,18 +1,31 @@
+h1 { font-size: 300%; font-weight:normal; }
+h2 { font-size: 180%; font-weight:normal; }
+
 
 
 body {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
- 	font-family:arial;
+	margin-top: 75px;
+	line-height: 1.25;
+	/*font-size: 20px;*/
+ 	font-family:Optima, Palatino, verdana;
 }
 
 .intro img {
 	display: block;
-	float: right;
+	float: left;
 	vertical-align: middle;
 	padding-right: 30px;
 }
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
 
 
 .stick_figure img {
@@ -40,18 +53,17 @@ nav li {
 }
 
 
-
-
 #gt_container {
-	width:900px;
+	/*width:900px;*/
 	margin-left: auto;
 	margin-right: auto;
+	display:flex; /*content in column won't overflow*/
 }
 #gt_container #left {
-	width:200px;
+	width:25%;
 	float:left;
 }
 #gt_container #right {
-	width:700px;
+	width:75%;
 	float:right;
 }
