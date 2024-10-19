@@ -77,3 +77,16 @@ nav li {
 	width:auto;
 	float:right;
 }
+
+
+
+
+a:link, a:visited {
+    color: #00A3FF; /* Bright lively blue */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    color: #007ACC; /* Slightly darker blue on hover */
+    text-decoration: underline dotted grey; /* Adds dotted grey underline on hover */
+}
